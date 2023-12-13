@@ -1,0 +1,37 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Online Store</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Store</h1>
+    </header>
+    <nav>
+        <ul class="menu-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="product-list">
+            <div class="product">
+                <img src="item1.jpg" alt="Item 1">
+                <h2>Honey</h2>
+                <p>Price: $20.00</p>
+                <button class="buy-btn" onclick="addToCart('Honey', 10.00)">Buy Now</button>
+            </div>
+           
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Honey Online Store</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
